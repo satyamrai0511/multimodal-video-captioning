@@ -1,0 +1,31 @@
+# Core Libraries
+numpy>=1.23.0
+torch>=2.0.0
+torchaudio>=2.0.1
+torchvision>=0.15.0
+
+# Transformers (for autoregressive decoding and audio encoders)
+transformers>=4.35.0
+
+# Diffusion Models
+diffusers>=0.21.0
+accelerate>=0.24.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Video Processing
+opencv-python>=4.7.0.72
+moviepy>=1.0.3
+
+# Utility and Visualization
+tqdm>=4.66.0
+matplotlib>=3.7.0
+
+# For model checkpointing and saving
+huggingface_hub>=0.20.0
+
+# Optional (if using attention visualization or spectrogram plots)
+seaborn>=0.13.0
+scipy>=1.11.0

@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore audio/video files
+*.mp3
+*.mp4
+*.wav
+
+# Ignore model checkpoint (optional — remove this line if you DO want to upload it)
+*.pt
+
+# Ignore Jupyter notebook checkpoint files
+.ipynb_checkpoints/
+
+# Ignore VS Code config folder
+.vscode/
